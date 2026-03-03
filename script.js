@@ -107,6 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
+    
     counterElements.forEach(el => counterObserver.observe(el));
     updateNavbar();
     updateActiveLink();
